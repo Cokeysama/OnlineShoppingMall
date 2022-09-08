@@ -1,0 +1,294 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image:url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a.no_underline:hover {
+  text-decoration: none;
+}
+
+a.button:hover {
+  text-decoration: none;
+}
+
+h1 {
+  position: relative;
+  top: 10px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  /* font-size: 32px; */
+  font-family: Palatino, 'Palatino Linotype', serif;
+  color: Oldlace;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+ /* color: rgb(46,105,163); */
+}
+
+h2 {
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+
+label {
+  font-weight: bold;
+}
+
+.text {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.text2 {
+  width: 35%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.combobox {
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.combobox2 {
+    width: 35%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.combobox_checkout {
+    width: 18%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+
+
+.radio {
+    width: 7%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+}
+
+.button {
+    background-color: dodgerblue;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+.button_checkout {
+    background-color: dodgerblue;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 250px;
+    border-radius: 4px;
+}
+
+.button_checkout:hover {
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+.button2 {
+    background-color: dodgerblue;
+    color: white;
+    padding: 5px 5px;
+    margin: 0 0;
+    border: none;
+    cursor: pointer;
+    width: 60px;
+    border-radius: 4px;
+}
+
+.button2:hover {
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+.button3 {
+    background-color:dodgerblue;
+    color: white;
+    padding: 5px 5px;
+    margin:  0 0;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+    border-radius: 4px;
+}
+
+.button3:hover {
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+.button4 {
+    background-color: dodgerblue;
+    color: white;
+    padding: 5px 5px;
+    margin:  0 0;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    border-radius: 4px;
+}
+
+.button4:hover {
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+   /* padding: 0 auto;
+    margin: 0 28%;
+    width: 1000px;
+*/
+    /* padding: 2% 8%; */
+    padding: 0.5% 2%; 
+    position: relative;
+    top: 10px;
+    width: 400px;
+    margin: 0 auto;
+    padding: 0 auto;   
+    background-color: aliceblue;
+    box-shadow: 0 4px 6px 0 hsla(0,0%,0%,0.2);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.container_main {
+    position: relative;
+    top: 10px;
+    width: 920px;
+    margin: 0 auto;
+    padding: 0 auto;   
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    /* box-shadow: 0 4px 6px 0 hsla(0,0%,0%,0.2); */
+}
+
+.container_order {
+    position: relative;
+    top: 10px;
+    width: 771px;
+    margin: 0 auto;
+    padding: 0 auto;   
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.container_main_admin {
+    position: static;
+    top: 10px;
+    width: 400px;
+    margin: 0 auto;
+    padding: 0 auto;   
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    /* box-shadow: 0 4px 6px 0 hsla(0,0%,0%,0.2); */
+}
+
+.container_main_admin_background {   
+  top: 15px;
+  position: relative;
+  box-shadow: 0 4px 6px 0 hsla(0,0%,0%,0.2);
+  background-color: aliceblue;
+  text-align:center;
+  padding: 2% 8%;
+}
+
+.container_main_view_user {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 auto;   
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    /* box-shadow: 0 4px 6px 0 hsla(0,0%,0%,0.2); */
+}
+
+.prodimage {
+   float: left;
+   margin: 2px;
+   width: 180px;
+   height: 180px;
+   border-radius: 25%;
+}
+
+footer {
+  padding: 13px 0 0;
+  margin: 13px 0 0;
+  position: relative;
+  text-align: center;
+  font-size: 12px;
+}
+.AdminTable {
+  text-align: center;
+  width: 1000px;
+
+}
+
